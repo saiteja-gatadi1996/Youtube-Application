@@ -1,0 +1,41 @@
+.videoCard{
+    margin-bottom: 40px;
+    width: 270px;
+}
+.videoCard__thumbnail{
+    height: 140px;
+    width: 250px;
+}
+
+.videoCard__info{
+    display: flex;
+    /* avatar and description */
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+.video__text{
+    margin-left: 15px;
+}
+.video__text>h4{
+    font-size: 14px;
+    margin-bottom: 5px;
+
+    /* description will become smaller in size */
+}
+
+.video__text>p{
+    font-size: 14px;
+    color: gray;
+
+    /* p tags color will change */
+}
+
+.videoCard__avatar{
+    height: 30px !important;
+    height: 30px !important;
+
+    /* avatar is the material ui and we need
+    to override */
+
+}
